@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +33,71 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.maincontainer{
+  border:2px solid black;
+  width:20%;
+  height:140px;
+  margin: auto;
+  margin-top: 2%;
+}
+.input{
+  width:80%;
+  height: 23px;
+  margin-left: 10%;
+}
+.add{
+  width:70%;
+  height: 23px;
+  background-color: rgb(21, 21, 28);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2%;
+  margin-left: 17%;
+}
+.books{
+  background-color: blueviolet;
+  color:white;
+  text-align: center;
+}
+.sub_div{
+  border: 2px solid black;
+  background-color: red;
+  color:white;
+  text-align: center;
+  height: 90px;
+  /* margin: auto; */
+  width:30%;
+  /* position: relative;
+  top:20%; */
+  padding: 10px;
+  margin: 10px;
+  /* justify-content: center; */
+}
+.subSub_div{
+  display: flex;
+  justify-content: space-evenly;
+}
+*{
+  margin:0px;
+  padding:0px;
+}
+/* Define the style for read-button */
+.read-button {
+  background-color: lightgreen;
+}
+
+/* Style for sub_div */
+.sub_div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 20px;
+  margin: auto;
+}
+
+/* Apply style for sub_div when read */
+.sub_div.read {
+  background-color: lightgreen;
 }
